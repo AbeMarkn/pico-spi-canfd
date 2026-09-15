@@ -205,6 +205,16 @@ tempCodeRunnerFile.py
 
 # Ruff stuff:
 .ruff_cache/
+.tools/
+.venv314/
+__pycache__/
+*.py[cod]
+.device-backup-*/
+logs/
+!pico/lib/
+!pico/lib/**
+pico/lib/**/__pycache__/
+pico/lib/**/*.py[cod]
 
 # PyPI configuration file
 .pypirc

@@ -1,0 +1,192 @@
+{
+  "directory": "logs/20260914-074149-719527",
+  "metadata": {
+    "ホスト版": "0.1.0",
+    "開始UTC": "2026-09-13T22:41:49.716036+00:00",
+    "Python": "3.14.7 (main, Sep  1 2026, 14:05:28) [Clang 22.1.3 ]",
+    "機器": {
+      "state": "IDLE",
+      "data_bitrate": 2000000,
+      "protocol": 1,
+      "firmware": "0.1.0",
+      "req": 0,
+      "max_profiles": 32,
+      "max_line": 1024,
+      "next_req": 0,
+      "max_active": 4,
+      "device_config_id": "pico-mcp2518fd-20m-v1",
+      "session_id": null,
+      "electrical_verified": false,
+      "schema": 1,
+      "event_seq": 1,
+      "boot_id": "131e5629684e7737",
+      "type": "INFO",
+      "nominal_bitrate": 500000,
+      "oscillator_hz": 20000000
+    },
+    "config": {
+      "schema": 1,
+      "revision": "four-id-v1",
+      "device_config_id": "pico-mcp2518fd-20m-v1",
+      "duration_ms": 120000,
+      "log_dir": "logs",
+      "profiles": [
+        {
+          "profile_id": "T1",
+          "can_id": 768,
+          "ide": false,
+          "fdf": false,
+          "brs": false,
+          "data": "1112131415161718",
+          "period_ms": 10,
+          "start_key": "a",
+          "stop_key": "b"
+        },
+        {
+          "profile_id": "T2",
+          "can_id": 769,
+          "ide": false,
+          "fdf": false,
+          "brs": false,
+          "data": "2122232425262728",
+          "period_ms": 100,
+          "start_key": "c",
+          "stop_key": "d"
+        },
+        {
+          "profile_id": "T3",
+          "can_id": 419365121,
+          "ide": true,
+          "fdf": true,
+          "brs": true,
+          "data": "000102030405060708090A0B0C0D0E0F101112131415161718191A1B1C1D1E1F202122232425262728292A2B2C2D2E2F303132333435363738393A3B3C3D3E3F",
+          "period_ms": 1000,
+          "start_key": "e",
+          "stop_key": "f"
+        },
+        {
+          "profile_id": "T4",
+          "can_id": 419365122,
+          "ide": true,
+          "fdf": true,
+          "brs": true,
+          "data": "404142434445464748494A4B4C4D4E4F505152535455565758595A5B5C5D5E5F606162636465666768696A6B6C6D6E6F707172737475767778797A7B7C7D7E7F",
+          "period_ms": 10000,
+          "start_key": "g",
+          "stop_key": "h"
+        }
+      ]
+    },
+    "Git": "e0457c3d91e4e3e5f9169fc710bb2b6414c87fed",
+    "source_sha256": {
+      "host/config.py": "052db08d46efc60b7718c1683f89f179d340fe4832b62eaf32c61df6fbf831ac",
+      "host/main.py": "ffec21797a02d9e62105162e4c902414d49e69128435b48ce8ad7d2cccc83ec2",
+      "pico/boot.py": "dff4ffb0d65e51f0af1b5a3d87566af0384bc49090e629e52e13419455a9e047",
+      "pico/common.py": "c2841e8df3fb9d96e07f06fbe18d82f9b65b4e54cdb8a851cb9241a6f66c7e50",
+      "pico/config.py": "510c30e15dbdaea486bac44ddf0c5e341d9816d63afc7c558cd6f8e7c803cec5",
+      "pico/lib/usb/device/__init__.py": "c8d3315a67057aa55ba5addb3dc28a690bb468c1f518d17e89d8679bed098a10",
+      "pico/lib/usb/device/cdc.py": "9150679bb586e1200b50b4d8671996bb10c00f4832cec779e09214c7986b732b",
+      "pico/lib/usb/device/core.py": "9801c923f268579a0077c9d95f5e71e0982f0506a260e7f68e14e0aa0ff88392",
+      "pico/main.py": "051e33ab2a2a52783256ada86f443b18894002a28d5c627a7c65f7812151e161",
+      "pico/mcp2518fd.py": "154d670dfeb7fd7e0632060a4e1563f6db8b78570cbbb73d799aac60683ff877"
+    },
+    "TSEOF": 1,
+    "RX時刻": "EOF最終直前ビット",
+    "TX時刻": "EOF終了",
+    "flush_ms": 100,
+    "fsync_ms": 1000
+  },
+  "final": {
+    "event_seq": 11434,
+    "type": "SESSION_END",
+    "dropped": 0,
+    "req": null,
+    "reason": "DURATION",
+    "stop_confirmed": true,
+    "stats": {
+      "rx": 1440,
+      "tx_failed": 0,
+      "skipped": 3351,
+      "tx_done": 9977
+    },
+    "drain_complete": true,
+    "boot_id": "131e5629684e7737",
+    "session_id": "1",
+    "hardware": {
+      "tdc": 133120,
+      "devid": 0,
+      "osc": 1120,
+      "crc_retries": 2,
+      "bus_off": false,
+      "rx_overflow": 0,
+      "bdiag0": 0,
+      "trec": 0,
+      "mode": 0,
+      "rec": 0,
+      "bdiag1": 11417,
+      "int": 3205627912,
+      "ecc": 0,
+      "crc": 50356509,
+      "tec": 0
+    },
+    "host_utc": "2026-09-13T22:43:49.834105+00:00"
+  },
+  "series": {
+    "T1": {
+      "count": 8645,
+      "period_ms": 10,
+      "txreq_interval_us": {
+        "min": 6666,
+        "mean": 13875.985539102268,
+        "max": 44892
+      },
+      "service_late_us_max": 44541,
+      "service_late_over_2ms": 8082,
+      "txreq_at_or_after_deadline": 0
+    },
+    "T2": {
+      "count": 1200,
+      "period_ms": 100,
+      "txreq_interval_us": {
+        "min": 74286,
+        "mean": 99987.11175979984,
+        "max": 130262
+      },
+      "service_late_us_max": 35736,
+      "service_late_over_2ms": 1200,
+      "txreq_at_or_after_deadline": 0
+    },
+    "T3": {
+      "count": 120,
+      "period_ms": 1000,
+      "txreq_interval_us": {
+        "min": 982827,
+        "mean": 999891.8067226891,
+        "max": 1021693
+      },
+      "service_late_us_max": 24634,
+      "service_late_over_2ms": 120,
+      "txreq_at_or_after_deadline": 0
+    },
+    "T4": {
+      "count": 12,
+      "period_ms": 10000,
+      "txreq_interval_us": {
+        "min": 9983955,
+        "mean": 9999323.363636363,
+        "max": 10018108
+      },
+      "service_late_us_max": 27693,
+      "service_late_over_2ms": 12,
+      "txreq_at_or_after_deadline": 0
+    }
+  },
+  "rx_id_counts": {
+    "0x100": 1200,
+    "0x200": 240
+  },
+  "rx_payload_and_window": "PASS",
+  "tx_payload_and_counts": "PASS",
+  "errors": [],
+  "measurement_note": "txreq_usはWRITE_SAFE発行直前のTBC読値。late_usは送信処理着手の遅れでありTXREQ反映の厳密測定ではない。"
+}

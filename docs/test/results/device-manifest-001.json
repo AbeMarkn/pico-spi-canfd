@@ -1,0 +1,29 @@
+{
+  "sha256": {
+    "pico/lib/usb/device/core.py": "9801c923f268579a0077c9d95f5e71e0982f0506a260e7f68e14e0aa0ff88392",
+    "pico/lib/usb/device/cdc.py": "9150679bb586e1200b50b4d8671996bb10c00f4832cec779e09214c7986b732b",
+    "pico/mcp2518fd.py": "5f692a542014a4343a24c2f429cfda00f796af35407d9e51cfa4a70bc2f8affc",
+    "pico/main.py": "a7e8ce7058d56380e11c2088fb785a4c792787c36861c6d0aef0eb43844bd40a",
+    "pico/config.py": "510c30e15dbdaea486bac44ddf0c5e341d9816d63afc7c558cd6f8e7c803cec5",
+    "pico/common.py": "c6fe05c2d94088c472a2bda2e3a461a60b26426ea3359d34653ab394064d92cd",
+    "pico/boot.py": "dff4ffb0d65e51f0af1b5a3d87566af0384bc49090e629e52e13419455a9e047",
+    "pico/lib/usb/device/__init__.py": "c8d3315a67057aa55ba5addb3dc28a690bb468c1f518d17e89d8679bed098a10"
+  },
+  "hardware": {
+    "tdc": 133120,
+    "devid": 0,
+    "osc": 1120,
+    "crc_retries": 0,
+    "bus_off": false,
+    "rx_overflow": 0,
+    "bdiag0": 0,
+    "trec": 2097152,
+    "mode": 4,
+    "rec": 0,
+    "bdiag1": 0,
+    "int": 3205627904,
+    "ecc": 0,
+    "crc": 50380929,
+    "tec": 0
+  }
+}

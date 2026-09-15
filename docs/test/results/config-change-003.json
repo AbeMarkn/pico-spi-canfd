@@ -1,0 +1,12 @@
+{
+  "created": "2026-09-14T14:00:45.409489+09:00",
+  "sha256": {
+    "pico/config.py": "832faf8fa98bf7b387a9dd3ab28f89efb7d9057fefb9eece0287290c71b2a271",
+    "host/config.py": "ea6e07ed92d15f96eec242d7f7ecdb25ee170acd26b87b0f3da4f79e26011f32",
+    "tests/fixtures/gui_config.py": "bf82914d01e71ccdb1b988e534d3c05f911401478e26673daebb99b2477cf47a",
+    "tests/test_protocol.py": "cf3c188ec4fe74868c8beb1733179af7e0320d36b6911e04e0a1e0c4219c0db5"
+  },
+  "deployed": false,
+  "tests": "79 passed, 2 skipped",
+  "ruff": "All checks passed"
+}

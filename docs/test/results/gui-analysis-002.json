@@ -1,0 +1,53 @@
+{
+  "source": "logs/gui/20260914-132543-227807",
+  "elapsed_host_seconds": 35.757303,
+  "start": {
+    "start_time_us": 16102,
+    "initial_generation": 0,
+    "deadline_us": 300016102,
+    "command": "START_SESSION",
+    "boot_id": "131e5629b6ae9906",
+    "session_id": "3",
+    "event_seq": 89,
+    "type": "ACK",
+    "req": 38,
+    "host_utc": "2026-09-14T04:25:43.330055+00:00"
+  },
+  "end": {
+    "event_seq": 1233,
+    "type": "SESSION_END",
+    "dropped": 0,
+    "req": null,
+    "reason": "DURATION",
+    "stop_confirmed": true,
+    "stats": {
+      "rx": 428,
+      "tx_failed": 0,
+      "skipped": 168,
+      "tx_done": 705
+    },
+    "drain_complete": true,
+    "boot_id": "131e5629b6ae9906",
+    "session_id": "3",
+    "hardware": {
+      "tdc": 133120,
+      "devid": 0,
+      "osc": 1120,
+      "crc_retries": 3,
+      "bus_off": false,
+      "rx_overflow": 0,
+      "bdiag0": 0,
+      "trec": 0,
+      "mode": 0,
+      "rec": 0,
+      "bdiag1": 1134,
+      "int": 3205627912,
+      "ecc": 0,
+      "crc": 50356509,
+      "tec": 0
+    },
+    "host_utc": "2026-09-14T04:26:19.087358+00:00"
+  },
+  "saved_tx_done": 705,
+  "saved_rx": 428
+}

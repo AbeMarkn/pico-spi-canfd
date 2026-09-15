@@ -1,0 +1,15 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+exclude = ["pico/lib", ".device-backup-20260913", ".tools"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+
+[tool.ruff.lint.per-file-ignores]
+"tools/pico_probe.py" = ["F821"] # rp2.asm_pioが提供するアセンブリ命令
+"pico/common.py" = ["F821", "F811"] # Viperのptr8/ptr16とCPU別CRC関数
+"pico/mcp2518fd.py" = ["F821"] # Viperのuint/ptr8/ptr16

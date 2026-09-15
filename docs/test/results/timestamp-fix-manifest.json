@@ -1,0 +1,5 @@
+{
+  "pico/common.py": "06d49d5675f052d559fa853d235816045ee32a74d677bb89a99ff81b43460c20",
+  "pico/mcp2518fd.py": "1ab7b076915f398586fadd5c0982772d657f90be3bea05c758ea33dfb722d217",
+  "tools/pico_timestamp_selftest.py": "fdb6f02aa06890da741e4ea47aaeb69240256ac997c3434edfd40b714f9a1a83"
+}
